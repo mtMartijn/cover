@@ -1,0 +1,4 @@
+cover
+obj/
+*.o
+*.d
