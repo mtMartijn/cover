@@ -12,6 +12,8 @@ The back page is an image of a tree, simply because I think trees are beautiful!
 
 ## Implementation
 
+I should mention that these are _real-time_ rendering techniques, where the necessity of rendering a frame within 15 ms requires you to take full advantage of hardware acceleration. Honestly, for a still image this method is a bit overkill. Interactive/procedural graphics is an odd obsession of mine so I had an interest in doing it this way. You could make something similar using normal 3D rendering software. 
+
 - First, the tree geometry is calculated on the CPU using the [space-colonization algorithm](http://algorithmicbotany.org/papers/colonization.egwnp2007.large.pdf). I realized that the trick to make it look nice was to vary the density of the attraction points from low (the trunk) to high (the canopy) using a smooth function. This took some trial and error. The attraction points are generated randomly, so changing the seed of the random number generator will give a slightly different tree. (See [algo.cpp](src/algo.cpp))
 - Once all the tree nodes are calculated they are sent to the GPU and rendered as a point sprites. I initially intended to go crazy with procedural textures for each particle, but in the end the thing that looked best was just a circle. It would have also required particle sorting or order-independent transparency which is either difficult to implement or incredibly slow.
 - The tree is captured into an FBO such that it can be blurred slightly using a Gaussian blur stage.
