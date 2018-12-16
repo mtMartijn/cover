@@ -65,7 +65,7 @@ void main() {
 
   vec3 col = paper_col;
 
-  col *= 1.f - length(uvn) * 0.3f;
+  col *= 1.f - length(uvn) * 0.1f;
   col *= grain(uvn, 0.01f);
 
   float mag = cavity(uvn + vec2(0.f, 0.15f), vec2(0.4f, 0.15f), PI*0.18f, 0.02f, 0.03f);
