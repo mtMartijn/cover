@@ -4,11 +4,11 @@ This is the source code for the cover of my PhD dissertation.
 
 Front page is an image of a 3D microwave cavity as this was the main experimental setup of my research.
 
-<img src="data/181122_184324_v8.png" alt="front" width="500"/>
+<img src="data/181216_160354_v7.png" alt="front" width="500"/>
 
 The back page is an image of a tree, simply because I think trees are beautiful! And they are very tricky to generate procedurally.
 
-<img src="data/181122_184318_v8.png" alt="back" width="500"/>
+<img src="data/181216_160349_v7.png" alt="back" width="500"/>
 
 ## Implementation
 
