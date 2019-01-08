@@ -2,11 +2,11 @@
 
 This is the source code for the cover of my PhD dissertation.
 
-Front page is an image of a 3D microwave cavity as this was the main experimental setup of my research.
+Front page is an abstract representation of a 3D microwave cavity. It's an isometric projection of a rectangular 'box' which acts as a window through which you can see the back cover. Three-dimensional microwave cavities were the main research area of my PhD.
 
 <img src="data/181216_160354_v7.png" alt="front" width="500"/>
 
-The back page is an image of a tree, simply because I think trees are beautiful! And they are very tricky to generate procedurally.
+The back page is an image of a distant tree with its reflection on a body of water. You could see it as the tree of knowledge or of wisdom to give it more symbolic meaning, but the truth is, I just think the branching of trees is very pretty. And it was a fun challenge to learn how to create it procedurally.
 
 <img src="data/181216_160349_v7.png" alt="back" width="500"/>
 
